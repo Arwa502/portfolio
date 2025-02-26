@@ -1,81 +1,137 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-  }
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  background: #47297B;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+main {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; 
+  padding: 0 5%;
+  color: white;
+  text-align: left; 
   
-  header {
-    background: #47297B;
-    color: white;
-    padding: 1rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  nav ul {
-    list-style: none;
-    display: flex;
-    gap: 15px;
-    margin: 0;
-    padding: 0;
-  }
-  
-  nav a {
-    color: white;
-    text-decoration: none;
-    font-weight: 500;
-  }
-  
-  main {
-    height: 80vh;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start; 
-    padding: 5% 5%;
-    color: white;
-    text-align: left; 
-    
-    background: url('https://habib.edu.pk/graduate-directory/wp-content/uploads/2024/02/jpeg-optimizer_IMG_0965-1-scaled.jpg') no-repeat right center;
-    background-size: 40%; 
-    background-color: #8736AA;
-  }
-  
-  .main-content {
-    max-width: 50%; 
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start; 
-  }
-  
-  main h2 {
-    font-size: 2rem;
-    color: #FFE863;
-    margin-bottom: 15px;
-  }
-  
-  .btn {
-    display: inline-block;
-    background: #FFE863;
-    color: #47297B;
-    padding: 10px 20px;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 5px;
-    margin-top: 10px;
-  }
-  
-  
-  
-  footer {
-    background: #47297B;
-    color: white;
-    padding: 1rem;
-  }
-  
-  .social-icons img {
-    width: 30px;
-    margin: 0 10px;
-  }
-  
+  background: url('https://habib.edu.pk/graduate-directory/wp-content/uploads/2024/02/jpeg-optimizer_IMG_0965-1-scaled.jpg') no-repeat right center;
+  background-size: 40%; 
+  background-color: #8736AA;
+}
+
+.main-content {
+  max-width: 50%; 
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+}
+
+main h2 {
+  font-size: 2rem;
+  color: #FFE863;
+  margin-bottom: 15px;
+}
+
+.btn {
+  display: inline-block;
+  background: #FFE863;
+  color: #47297B;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.featured-project {
+  padding: 50px 10%;
+  text-align: center;
+}
+
+.featured-project img {
+  width: 100%;
+  max-width: 800px;
+  border-radius: 5px;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0px;
+  background-color:#87778f;
+}
+
+.project {
+  margin-bottom: 50px;
+  padding: 10px 10px;
+  text-align: center;
+  width: 100%;
+  background-color:#ab8cb8;
+}
+
+.project h2 {
+  font-size: 1.8rem;
+  color: #47297B;
+}
+
+.project-images {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 15px;
+  flex-wrap: wrap;
+}
+
+.project-images img {
+  width: 32%;
+  max-width: 100%;
+  border-radius: 10px;
+  border: 3px solid #47297B;
+}
+
+
+
+.project-description {
+  margin-top: 15px;
+  font-size: 1rem;
+  color: #333;
+}
+
+footer {
+  background: #47297B;
+  color: white;
+  padding: 1rem;
+}
+
+.social-icons img {
+  width: 30px;
+  margin: 0 10px;
+}
+
+
+
+
